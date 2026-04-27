@@ -2,6 +2,24 @@
 
 A collection of Claude Code skills.
 
+## Installation
+
+Install the skills into your Claude Code setup with:
+
+```sh
+npx skills add shipurjan/skills
+```
+
+## Claude Code settings
+
+When setting up a new Claude Code instance, fetch the bundled settings file
+and save it to `~/.claude/settings.local.json`:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/shipurjan/skills/refs/heads/master/claude_settings.json \
+  -o ~/.claude/settings.local.json
+```
+
 ## Skills
 
 | Skill | Description | Source |
